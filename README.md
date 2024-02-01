@@ -42,8 +42,17 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://github.com/facebookresearch/xR-EgoPose">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax">EgoPW-Scene</td>
+    <td class="tg-0lax">EgoPW</td>
     <td class="tg-0lax">318K</td>
+    <td class="tg-0lax">Real (pseudo gt)</td>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">25</td>
+    <td class="tg-0lax"><a href="https://people.mpi-inf.mpg.de/~jianwang/projects/egopw/">Link</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">EgoPW-Scene</td>
+    <td class="tg-0lax">92K</td>
     <td class="tg-0lax">Real (pseudo gt)</td>
     <td class="tg-0lax">10</td>
     <td class="tg-0lax">Pseudo Annotations</td>
@@ -92,6 +101,8 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 </table>
 
 ### Evaluation Datasets
+
+#### SceneEgo Test Dataset [[Paper with Code](https://paperswithcode.com/sota/egocentric-pose-estimation-on-sceneego)]
 
 ### Papers
 
