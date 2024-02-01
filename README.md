@@ -6,7 +6,7 @@ A list of awesome egocentric pose estimation works and related resources.
 The inside-in vision setup involves cameras or sensors directed toward the person or object of interest, capturing data from the inside of the motion capture subject. This setup can be seen on the Oculus Quest2 and Apple Vision Pro.
 
 
-### Training Datasets
+### Training Datasets (bold means recommended to use)
 
 <table class="tg">
 <thead>
@@ -33,16 +33,16 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://vcai.mpi-inf.mpg.de/projects/wxu/Mo2Cap2/">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax">xR-egopose</td>
-    <td class="tg-0lax">380K</td>
+    <td class="tg-0lax"><b>xR-egopose</b></td>
+    <td class="tg-0lax">252K Train + 16 Val</td>
     <td class="tg-0lax">Synthetic</td>
-    <td class="tg-0lax">46</td>
+    <td class="tg-0lax">34</td>
     <td class="tg-0lax">No</td>
     <td class="tg-0lax">30</td>
     <td class="tg-0lax"><a href="https://github.com/facebookresearch/xR-EgoPose">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax">EgoPW</td>
+    <td class="tg-0lax"><b>EgoPW</b></td>
     <td class="tg-0lax">318K</td>
     <td class="tg-0lax">Real (pseudo gt)</td>
     <td class="tg-0lax">10</td>
@@ -60,7 +60,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax">EgoWholeBody</td>
+    <td class="tg-0lax"><b>EgoWholeBody</b></td>
     <td class="tg-0lax">700K</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">14</td>
@@ -80,7 +80,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">Stereo Fisheye<br></td>
-    <td class="tg-0lax">UnrealEgo</td>
+    <td class="tg-0lax"><b>UnrealEgo</b></td>
     <td class="tg-0lax">450K * 2 views</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">17</td>
@@ -89,7 +89,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax">UnrealEgo2</td>
+    <td class="tg-0lax"><b>UnrealEgo2</b></td>
     <td class="tg-0lax">1.25M * 2 views</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">17</td>
@@ -100,9 +100,99 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 </tbody>
 </table>
 
-### Evaluation Datasets
+### Evaluation Datasets (bold means recommended to use)
 
-#### SceneEgo Test Dataset [[Paper with Code](https://paperswithcode.com/sota/egocentric-pose-estimation-on-sceneego)]
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">Setup</th>
+    <th class="tg-0lax">Dataset</th>
+    <th class="tg-0lax">Number of Frames</th>
+    <th class="tg-0lax">Synthetic or Real</th>
+    <th class="tg-0lax">Scene Annotation</th>
+    <th class="tg-0lax">FPS</th>
+    <th class="tg-0lax">Link</th>
+    <th class="tg-0lax">Leader Board</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax" rowspan="5">Monocular Fisheye</td>
+    <td class="tg-0lax">Mo2Cap2 <a href="#1">[1]</a></td>
+    <td class="tg-0lax">5K</td>
+    <td class="tg-0lax">Real</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">25</td>
+    <td class="tg-0lax"><a href="https://vcai.mpi-inf.mpg.de/projects/wxu/Mo2Cap2/">Link</a></td>
+    <td class="tg-0lax">-</td>
+  </tr>
+ <tr>
+    <td class="tg-0lax"><b>xR-egopose</b></td>
+    <td class="tg-0lax">115K</td>
+    <td class="tg-0lax">Synthetic</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">30</td>
+    <td class="tg-0lax"><a href="https://github.com/facebookresearch/xR-EgoPose">Link</a></td>
+    <td class="tg-0lax">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">GlobalEgoMocap</td>
+    <td class="tg-0lax">318K</td>
+    <td class="tg-0lax">Real</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">25</td>
+    <td class="tg-0lax"><a href="https://people.mpi-inf.mpg.de/~jianwang/projects/globalegomocap/">Link</a></td>
+        <td class="tg-0lax"><a href="https://paperswithcode.com/sota/egocentric-pose-estimation-on-globalegomocap">Paper With Code</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>SceneEgo</b></td>
+    <td class="tg-0lax">28K</td>
+    <td class="tg-0lax">Real</td>
+    <td class="tg-0lax">Yes</td>
+    <td class="tg-0lax">25</td>
+    <td class="tg-0lax"><a href="https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/">Link</a></td>
+    <td class="tg-0lax"><a href="https://paperswithcode.com/sota/egocentric-pose-estimation-on-sceneego">Paper With Code</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>EgoWholeBody</b></td>
+    <td class="tg-0lax">133K</td>
+    <td class="tg-0lax">Synthetic</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">30</td>
+    <td class="tg-0lax">-</td>
+    <td class="tg-0lax">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="3">Stereo Fisheye<br></td>
+    <td class="tg-0lax"><b>UnrealEgo</b></td>
+    <td class="tg-0lax">48K * 2 views</td>
+    <td class="tg-0lax">Synthetic</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">25</td>
+    <td class="tg-0lax"><a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">Link</a></td>
+    <td class="tg-0lax"><a href="https://paperswithcode.com/sota/egocentric-pose-estimation-on-unrealego">Paper With Code</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>UnrealEgo2</b></td>
+    <td class="tg-0lax">123K * 2 views</td>
+    <td class="tg-0lax">Synthetic</td>
+    <td class="tg-0lax">Yes</td>
+    <td class="tg-0lax">25</td>
+    <td class="tg-0lax">-</td>
+    <td class="tg-0lax">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>UnrealEgo2-RW</b></td>
+    <td class="tg-0lax">130K * 2 views</td>
+    <td class="tg-0lax">Real</td>
+    <td class="tg-0lax">Yes</td>
+    <td class="tg-0lax">25</td>
+    <td class="tg-0lax">-</td>
+    <td class="tg-0lax">-</td>
+  </tr>
+</tbody>
+</table>
+
 
 ### Papers
 
