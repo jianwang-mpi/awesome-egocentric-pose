@@ -7,6 +7,12 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 
 ### Training Datasets
 
+| Dataset | Number of Frames |   |   |   |
+|---------|------------------|---|---|---|
+| Mo$`^2`$Cap$`^2`$ |                  |   |   |   |
+|         |                  |   |   |   |
+|         |                  |   |   |   |
+
 ### Evaluation Datasets
 
 ### Papers
@@ -23,7 +29,7 @@ The inside-out vision setup employs cameras or sensors positioned on the person 
 
 The Inertial Measurement Unit (IMU) setup utilizes sensors typically composed of accelerometers, gyroscopes, and sometimes magnetometers. In egocentric motion capture, IMUs are placed on the human body to capture dynamic motion and limb orientation changes. 
 
-### Dataset
+### Datasets
 
 ### Papers
 
@@ -31,7 +37,7 @@ The Inertial Measurement Unit (IMU) setup utilizes sensors typically composed of
 
 Some methods use the headset 6dof pose (head pose) and VR controller 6dof pose (hand pose) to estimate full body pose. The hand and head poses come from the headset SLAM and VR controller, the input signal is much less noisy than the IMU setup. 
 
-### Dataset
+### Datasets
 
 ### Papers
 
@@ -39,7 +45,7 @@ Some methods use the headset 6dof pose (head pose) and VR controller 6dof pose (
 
 The third-person setup refers to motion capture techniques that involve a third person carrying moving cameras observing the motion capture subject.
 
-### Dataset
+### Datasets
 
 ### Papers
 
