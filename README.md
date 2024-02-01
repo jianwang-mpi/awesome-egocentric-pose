@@ -1,4 +1,4 @@
-# Awesome Egocentric-pose
+# Awesome Egocentric Pose
 A list of awesome egocentric pose estimation works and related resources.
 
 ## Egocentric Inside-In Pose Estimation
