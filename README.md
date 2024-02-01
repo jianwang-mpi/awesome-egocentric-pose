@@ -7,11 +7,87 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 
 ### Training Datasets
 
-| Dataset | Number of Frames |   |   |   |
-|---------|------------------|---|---|---|
-| Mo$`^2`$Cap$`^2`$ |                  |   |   |   |
-|         |                  |   |   |   |
-|         |                  |   |   |   |
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">Setup</th>
+    <th class="tg-0lax">Dataset</th>
+    <th class="tg-0lax">Number of Frames</th>
+    <th class="tg-0lax">Synthetic or Real</th>
+    <th class="tg-0lax">Actor Number</th>
+    <th class="tg-0lax">Scene Annotation</th>
+    <th class="tg-0lax">FPS</th>
+    <th class="tg-0lax">Link</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax" rowspan="4">Monocular</td>
+    <td class="tg-0lax">Mo2Cap2</td>
+    <td class="tg-0lax">530K</td>
+    <td class="tg-0lax">Synthetic</td>
+    <td class="tg-0lax">-</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">-</td>
+    <td class="tg-0lax"><a href="https://vcai.mpi-inf.mpg.de/projects/wxu/Mo2Cap2/">Link</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">xR-egopose</td>
+    <td class="tg-0lax">380K</td>
+    <td class="tg-0lax">Synthetic</td>
+    <td class="tg-0lax">46</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">30</td>
+    <td class="tg-0lax"><a href="https://github.com/facebookresearch/xR-EgoPose">Link</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">EgoPW-Scene</td>
+    <td class="tg-0lax">318K</td>
+    <td class="tg-0lax">Real (pseudo gt)</td>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax">Pseudo Annotations</td>
+    <td class="tg-0lax">25</td>
+    <td class="tg-0lax"><a href="https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/">Link</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">EgoWholeBody</td>
+    <td class="tg-0lax">700K</td>
+    <td class="tg-0lax">Synthetic</td>
+    <td class="tg-0lax">17</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">30</td>
+    <td class="tg-0lax">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="3">Stereo<br></td>
+    <td class="tg-0lax">EgoGlass</td>
+    <td class="tg-0lax">172K</td>
+    <td class="tg-0lax">Real</td>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">30</td>
+    <td class="tg-0lax">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">UnrealEgo</td>
+    <td class="tg-0lax">450K * 2 views</td>
+    <td class="tg-0lax">Synthetic</td>
+    <td class="tg-0lax">17</td>
+    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">25</td>
+    <td class="tg-0lax"><a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">Link</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">UnrealEgo2</td>
+    <td class="tg-0lax">1.25M * 2 views</td>
+    <td class="tg-0lax">Synthetic</td>
+    <td class="tg-0lax">17</td>
+    <td class="tg-0lax">Yes</td>
+    <td class="tg-0lax">25</td>
+    <td class="tg-0lax">-</td>
+  </tr>
+</tbody>
+</table>
 
 ### Evaluation Datasets
 
