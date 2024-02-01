@@ -23,7 +23,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax" rowspan="4">Monocular Fisheye</td>
+    <td class="tg-0lax" rowspan="5">Monocular Fisheye</td>
     <td class="tg-0lax">Mo2Cap2 <a href="#1">[1]</a></td>
     <td class="tg-0lax">530K</td>
     <td class="tg-0lax">Synthetic</td>
