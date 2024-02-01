@@ -5,6 +5,7 @@ A list of awesome egocentric pose estimation works and related resources.
 
 The inside-in vision setup involves cameras or sensors directed toward the person or object of interest, capturing data from the inside of the motion capture subject. This setup can be seen on the Oculus Quest2 and Apple Vision Pro.
 
+
 ### Training Datasets
 
 <table class="tg">
@@ -22,8 +23,8 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax" rowspan="4">Monocular</td>
-    <td class="tg-0lax">Mo2Cap2</td>
+    <td class="tg-0lax" rowspan="4">Monocular Fisheye</td>
+    <td class="tg-0lax">Mo2Cap2 <a href="#1">[1]</a></td>
     <td class="tg-0lax">530K</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">-</td>
@@ -53,13 +54,13 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax">EgoWholeBody</td>
     <td class="tg-0lax">700K</td>
     <td class="tg-0lax">Synthetic</td>
-    <td class="tg-0lax">17</td>
+    <td class="tg-0lax">14</td>
     <td class="tg-0lax">No</td>
     <td class="tg-0lax">30</td>
     <td class="tg-0lax">-</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="3">Stereo<br></td>
+    <td class="tg-0lax" rowspan="1">Stereo Perspecive<br></td>
     <td class="tg-0lax">EgoGlass</td>
     <td class="tg-0lax">172K</td>
     <td class="tg-0lax">Real</td>
@@ -69,6 +70,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax">-</td>
   </tr>
   <tr>
+    <td class="tg-0lax" rowspan="2">Stereo Fisheye<br></td>
     <td class="tg-0lax">UnrealEgo</td>
     <td class="tg-0lax">450K * 2 views</td>
     <td class="tg-0lax">Synthetic</td>
@@ -92,6 +94,11 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 ### Evaluation Datasets
 
 ### Papers
+
+<p id="1">[1] Weipeng Xu et al. “Mo2Cap2 : Real-time Mobile 3D Motion Capture with a Cap-mounted Fisheye Camera”. In: IEEE Transactions on Visualization and Computer Graphics (2019), pp. 1–1. issn: 1077-2626. doi: 10.1109/TVCG.2019.2898650.</p> 
+
+
+
 
 ## Egocentric Inside-Out Pose Estimation
 
