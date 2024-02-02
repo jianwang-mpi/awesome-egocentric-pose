@@ -35,7 +35,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 <tbody>
   <tr>
     <td class="tg-0lax" rowspan="5">Monocular Fisheye</td>
-    <td class="tg-0lax">Mo2Cap2</td>
+    <td class="tg-0lax">Mo2Cap2<a href="#inside_in_1">[2]</a></td>
     <td class="tg-0lax">530K</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">-</td>
@@ -44,7 +44,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://vcai.mpi-inf.mpg.de/projects/wxu/Mo2Cap2/">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><b>xR-egopose</b></td>
+    <td class="tg-0lax"><b>xR-egopose</b><a href="#inside_in_2">[3]</a></td>
     <td class="tg-0lax">252K Train + 16 Val</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">34</td>
@@ -206,22 +206,30 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 
 
 ### Papers
-
-- Xu, Weipeng, et al. "[Mo2cap2: Real-time mobile 3d motion capture with a cap-mounted fisheye camera.](https://ieeexplore.ieee.org/iel7/2945/4359476/08643070.pdf?casa_token=e4SLB13uVgEAAAAA:2XRsNxwTMs6UIWZ4saiYNrL5sLPuSFB3Y8PPPQzxtkeTO8D8_yyMWlzLWeoYwbqk7PhF1YaWjtM)" IEEE transactions on visualization and computer graphics 25.5 (2019): 2093-2101. [[project page]](https://vcai.mpi-inf.mpg.de/projects/wxu/Mo2Cap2/content/mo2cap2.pdf)
-
-- Tome, Denis, et al. "[xr-egopose: Egocentric 3d human pose from an hmd camera.](https://openaccess.thecvf.com/content_ICCV_2019/papers/Tome_xR-EgoPose_Egocentric_3D_Human_Pose_From_an_HMD_Camera_ICCV_2019_paper.pdf)" Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019. [[dataset]](https://github.com/facebookresearch/xR-EgoPose)
-
-- Zhang, Yahui, Shaodi You, and Theo Gevers. "[Automatic calibration of the fisheye camera for egocentric 3d human pose estimation from a single image.](https://openaccess.thecvf.com/content/WACV2021/papers/Zhang_Automatic_Calibration_of_the_Fisheye_Camera_for_Egocentric_3D_Human_WACV_2021_paper.pdf)" Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 2021.
-
-- Wang, Jian, et al. "[Estimating egocentric 3d human pose in global space.](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Estimating_Egocentric_3D_Human_Pose_in_Global_Space_ICCV_2021_paper.pdf)" Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021. [[project page]](https://people.mpi-inf.mpg.de/~jianwang/projects/globalegomocap/) [[dataset]](https://people.mpi-inf.mpg.de/~jianwang/projects/globalegomocap/) [[demo]](https://people.mpi-inf.mpg.de/~jianwang/projects/globalegomocap/data/global_egomocap.mp4)
-
-- Wang, Jian, et al. "[Estimating egocentric 3d human pose in the wild with external weak supervision.](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Estimating_Egocentric_3D_Human_Pose_in_the_Wild_With_External_CVPR_2022_paper.pdf)" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022. [[project page]](https://people.mpi-inf.mpg.de/~jianwang/projects/egopw/) [[dataset]](https://people.mpi-inf.mpg.de/~jianwang/projects/egopw/) [[demo]](https://people.mpi-inf.mpg.de/~jianwang/projects/egopw/data/camera_ready.mp4)
-
-- Akada, Hiroyasu, et al. "[UnrealEgo: A new dataset for robust egocentric 3d human motion capture.](https://arxiv.org/pdf/2208.01633)" European Conference on Computer Vision. Cham: Springer Nature Switzerland, 2022. [[project page]](https://4dqv.mpi-inf.mpg.de/UnrealEgo/) [[code]](https://github.com/hiroyasuakada/UnrealEgo) [[dataset]](https://4dqv.mpi-inf.mpg.de/UnrealEgo/) [[demo]](https://4dqv.mpi-inf.mpg.de/UnrealEgo/data/unrealego_distribution.mp4)
-
-- Wang, Jian, et al. "[Scene-aware Egocentric 3D Human Pose Estimation.](https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/data/camera_ready.pdf)" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023. [[project page]](https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/) [[dataset]](https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/) [[code]](https://github.com/jianwang-mpi/SceneEgo)
-
-
+<a name="inside_in_1"></a>
+1. Rhodin, Helge, et al. "[Egocap: egocentric marker-less motion capture with two fisheye cameras.](https://dl.acm.org/doi/pdf/10.1145/2980179.2980235?casa_token=_TJDPGqsnLgAAAAA:YmzArpjri1d2L5s-IlF_5a4ROjwfLOlSzhhhZMebks_FRQGB4ROPdmUA_fWl2O5z6P3wiEwk8CRyQQ)" ACM Transactions on Graphics (TOG) 35.6 (2016): 1-11. [[project page]](https://vcai.mpi-inf.mpg.de/projects/EgoCap/)
+<a name="inside_in_2"></a>
+2. Xu, Weipeng, et al. "[Mo2cap2: Real-time mobile 3d motion capture with a cap-mounted fisheye camera.](https://ieeexplore.ieee.org/iel7/2945/4359476/08643070.pdf?casa_token=e4SLB13uVgEAAAAA:2XRsNxwTMs6UIWZ4saiYNrL5sLPuSFB3Y8PPPQzxtkeTO8D8_yyMWlzLWeoYwbqk7PhF1YaWjtM)" IEEE transactions on visualization and computer graphics 25.5 (2019): 2093-2101. [[project page]](https://vcai.mpi-inf.mpg.de/projects/wxu/Mo2Cap2/content/mo2cap2.pdf)
+<a name="inside_in_3"></a>
+3. Tome, Denis, et al. "[xr-egopose: Egocentric 3d human pose from an hmd camera.](https://openaccess.thecvf.com/content_ICCV_2019/papers/Tome_xR-EgoPose_Egocentric_3D_Human_Pose_From_an_HMD_Camera_ICCV_2019_paper.pdf)" Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019. [[dataset]](https://github.com/facebookresearch/xR-EgoPose)
+<a name="inside_in_4"></a>
+4. Zhang, Yahui, Shaodi You, and Theo Gevers. "[Automatic calibration of the fisheye camera for egocentric 3d human pose estimation from a single image.](https://openaccess.thecvf.com/content/WACV2021/papers/Zhang_Automatic_Calibration_of_the_Fisheye_Camera_for_Egocentric_3D_Human_WACV_2021_paper.pdf)" Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 2021.
+<a name="inside_in_5"></a>
+5. Wang, Jian, et al. "[Estimating egocentric 3d human pose in global space.](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Estimating_Egocentric_3D_Human_Pose_in_Global_Space_ICCV_2021_paper.pdf)" Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021. [[project page]](https://people.mpi-inf.mpg.de/~jianwang/projects/globalegomocap/) [[dataset]](https://people.mpi-inf.mpg.de/~jianwang/projects/globalegomocap/) [[demo]](https://people.mpi-inf.mpg.de/~jianwang/projects/globalegomocap/data/global_egomocap.mp4)
+<a name="inside_in_6"></a>
+6. Wang, Jian, et al. "[Estimating egocentric 3d human pose in the wild with external weak supervision.](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Estimating_Egocentric_3D_Human_Pose_in_the_Wild_With_External_CVPR_2022_paper.pdf)" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022. [[project page]](https://people.mpi-inf.mpg.de/~jianwang/projects/egopw/) [[dataset]](https://people.mpi-inf.mpg.de/~jianwang/projects/egopw/) [[demo]](https://people.mpi-inf.mpg.de/~jianwang/projects/egopw/data/camera_ready.mp4)
+<a name="inside_in_7"></a>
+7.  Akada, Hiroyasu, et al. "[UnrealEgo: A new dataset for robust egocentric 3d human motion capture.](https://arxiv.org/pdf/2208.01633)" European Conference on Computer Vision. Cham: Springer Nature Switzerland, 2022. [[project page]](https://4dqv.mpi-inf.mpg.de/UnrealEgo/) [[code]](https://github.com/hiroyasuakada/UnrealEgo) [[dataset]](https://4dqv.mpi-inf.mpg.de/UnrealEgo/) [[demo]](https://4dqv.mpi-inf.mpg.de/UnrealEgo/data/unrealego_distribution.mp4)
+<a name="inside_in_8"></a>
+8. Wang, Jian, et al. "[Scene-aware Egocentric 3D Human Pose Estimation.](https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/data/camera_ready.pdf)" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023. [[project page]](https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/) [[dataset]](https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/) [[code]](https://github.com/jianwang-mpi/SceneEgo)
+<a name="inside_in_9"></a>
+9. Park, Jinman, et al. "[Building Spatio-temporal Transformers for Egocentric 3D Pose Estimation.](https://arxiv.org/pdf/2206.04785)" arXiv preprint arXiv:2206.04785 (2022).
+<a name="inside_in_10"></a>
+10. Liu, Yuxuan, et al. "[EgoHMR: Egocentric Human Mesh Recovery via Hierarchical Latent Diffusion Model.](https://ieeexplore.ieee.org/iel7/10160211/10160212/10161247.pdf?casa_token=CiJvYD088esAAAAA:axYgjqN_RcSDA1TXNzgdO6pTmDvoLwVAT9jitPD-mrDIOOnlN_MH1m72eLgztegwHO6UtnAGfUo)" 2023 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2023.
+<a name="inside_in_11"></a>
+11. Wang, Jian, et al. "[Egocentric Whole-Body Motion Capture with FisheyeViT and Diffusion-Based Motion Refinement.](https://arxiv.org/pdf/2311.16495)" arXiv preprint arXiv:2311.16495 (2023).
+<a name="inside_in_12"></a>
+12. Akada, Hiroyasu, et al. "[3D Human Pose Perception from Egocentric Stereo Videos.](https://arxiv.org/abs/2401.00889)" arXiv preprint arXiv:2401.00889 (2023).
 
 ## Egocentric Inside-Out Pose Estimation
 
