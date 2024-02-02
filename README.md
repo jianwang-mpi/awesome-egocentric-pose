@@ -1,5 +1,16 @@
-# Awesome Egocentric Pose
-A list of awesome egocentric pose estimation works and related resources.
+# Awesome Egocentric Human Pose
+
+A list of the awesome egocentric human body pose estimation works and related resources. While some repositories [awesome-egocentric-vision](https://github.com/Sid2697/awesome-egocentric-vision) compile studies across the wide field of egocentric vision, none specifically focus on the niche area of egocentric human body pose estimation.
+
+## Contents
+We split this topic by different capture setups:
+
+- [Egocentric Inside-In Pose Estimation](#egocentric-inside-in-pose-estimation)
+- [Egocentric Inside-Out Pose Estimation](#egocentric-inside-out-pose-estimation)
+- [IMU-Based Egocentric Pose Estimation](#imu-based-egocentric-pose-estimation)
+- [Headset-Based Egocentric Pose Estimation](#headset-based-egocentric-pose-estimation)
+- [Mixed Setup](#mixed-setup)
+
 
 ## Egocentric Inside-In Pose Estimation
 
@@ -197,6 +208,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 ### Papers
 
 <p id="1">[1] Weipeng Xu et al. “Mo2Cap2 : Real-time Mobile 3D Motion Capture with a Cap-mounted Fisheye Camera”. In: IEEE Transactions on Visualization and Computer Graphics (2019), pp. 1–1. issn: 1077-2626. doi: 10.1109/TVCG.2019.2898650.</p> 
+<p id="2">[2] Tome, Denis, et al. "xr-egopose: Egocentric 3d human pose from an hmd camera." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019.</p> 
 
 
 
