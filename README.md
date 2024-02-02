@@ -35,7 +35,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 <tbody>
   <tr>
     <td class="tg-0lax" rowspan="5">Monocular Fisheye</td>
-    <td class="tg-0lax">Mo2Cap2<a href="#inside_in_1">[2]</a></td>
+    <td class="tg-0lax">Mo2Cap2<a href="#inside_in_2">[2]</a></td>
     <td class="tg-0lax">530K</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">-</td>
@@ -44,7 +44,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://vcai.mpi-inf.mpg.de/projects/wxu/Mo2Cap2/">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><b>xR-egopose</b><a href="#inside_in_2">[3]</a></td>
+    <td class="tg-0lax"><b>xR-egopose</b><a href="#inside_in_3">[3]</a></td>
     <td class="tg-0lax">252K Train + 16 Val</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">34</td>
@@ -53,7 +53,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://github.com/facebookresearch/xR-EgoPose">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><b>EgoPW</b></td>
+    <td class="tg-0lax"><b>EgoPW</b><a href="#inside_in_6">[6]</a></td>
     <td class="tg-0lax">318K</td>
     <td class="tg-0lax">Real (pseudo gt)</td>
     <td class="tg-0lax">10</td>
@@ -62,7 +62,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://people.mpi-inf.mpg.de/~jianwang/projects/egopw/">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax">EgoPW-Scene</td>
+    <td class="tg-0lax">EgoPW-Scene<a href="#inside_in_8">[8]</a></td>
     <td class="tg-0lax">92K</td>
     <td class="tg-0lax">Real (pseudo gt)</td>
     <td class="tg-0lax">10</td>
@@ -71,7 +71,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://people.mpi-inf.mpg.de/~jianwang/projects/sceneego/">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><b>EgoWholeBody</b></td>
+    <td class="tg-0lax"><b>EgoWholeBody</b><a href="#inside_in_11">[11]</a></td>
     <td class="tg-0lax">700K</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">14</td>
@@ -91,7 +91,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">Stereo Fisheye<br></td>
-    <td class="tg-0lax"><b>UnrealEgo</b></td>
+    <td class="tg-0lax"><b>UnrealEgo</b><a href="#inside_in_7">[7]</a></td>
     <td class="tg-0lax">450K * 2 views</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">17</td>
@@ -100,7 +100,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">Link</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><b>UnrealEgo2</b></td>
+    <td class="tg-0lax"><b>UnrealEgo2</b><a href="#inside_in_12">[12]</a></td>
     <td class="tg-0lax">1.25M * 2 views</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">17</td>
@@ -129,7 +129,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 <tbody>
   <tr>
     <td class="tg-0lax" rowspan="5">Monocular Fisheye</td>
-    <td class="tg-0lax">Mo2Cap2</td>
+    <td class="tg-0lax">Mo2Cap2<a href="#inside_in_2">[2]</a></td>
     <td class="tg-0lax">5K</td>
     <td class="tg-0lax">Real</td>
     <td class="tg-0lax">No</td>
@@ -138,7 +138,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax">-</td>
   </tr>
  <tr>
-    <td class="tg-0lax"><b>xR-egopose</b></td>
+    <td class="tg-0lax"><b>xR-egopose</b><a href="#inside_in_3">[3]</a></td>
     <td class="tg-0lax">115K</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">No</td>
@@ -147,7 +147,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax">-</td>
   </tr>
   <tr>
-    <td class="tg-0lax">GlobalEgoMocap</td>
+    <td class="tg-0lax">GlobalEgoMocap<a href="#inside_in_5">[5]</a></td>
     <td class="tg-0lax">318K</td>
     <td class="tg-0lax">Real</td>
     <td class="tg-0lax">No</td>
@@ -156,7 +156,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
         <td class="tg-0lax"><a href="https://paperswithcode.com/sota/egocentric-pose-estimation-on-globalegomocap">Paper With Code</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><b>SceneEgo</b></td>
+    <td class="tg-0lax"><b>SceneEgo</b><a href="#inside_in_8">[8]</a></td>
     <td class="tg-0lax">28K</td>
     <td class="tg-0lax">Real</td>
     <td class="tg-0lax">Yes</td>
@@ -165,7 +165,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://paperswithcode.com/sota/egocentric-pose-estimation-on-sceneego">Paper With Code</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><b>EgoWholeBody</b></td>
+    <td class="tg-0lax"><b>EgoWholeBody</b><a href="#inside_in_11">[11]</a></td>
     <td class="tg-0lax">133K</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">No</td>
@@ -175,7 +175,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="3">Stereo Fisheye<br></td>
-    <td class="tg-0lax"><b>UnrealEgo</b></td>
+    <td class="tg-0lax"><b>UnrealEgo</b><a href="#inside_in_7">[7]</a></td>
     <td class="tg-0lax">48K * 2 views</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">No</td>
@@ -184,7 +184,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax"><a href="https://paperswithcode.com/sota/egocentric-pose-estimation-on-unrealego">Paper With Code</a></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><b>UnrealEgo2</b></td>
+    <td class="tg-0lax"><b>UnrealEgo2</b><a href="#inside_in_12">[12]</a></td>
     <td class="tg-0lax">123K * 2 views</td>
     <td class="tg-0lax">Synthetic</td>
     <td class="tg-0lax">Yes</td>
@@ -193,7 +193,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
     <td class="tg-0lax">-</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><b>UnrealEgo2-RW</b></td>
+    <td class="tg-0lax"><b>UnrealEgo2-RW</b><a href="#inside_in_12">[12]</a></td>
     <td class="tg-0lax">130K * 2 views</td>
     <td class="tg-0lax">Real</td>
     <td class="tg-0lax">Yes</td>
