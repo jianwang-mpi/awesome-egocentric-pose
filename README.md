@@ -232,6 +232,8 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 12. Akada, Hiroyasu, et al. "[3D Human Pose Perception from Egocentric Stereo Videos.](https://arxiv.org/abs/2401.00889)" arXiv preprint arXiv:2401.00889 (2023).
 13. Liu, Yuxuan, et al. "[EgoFish3D: Egocentric 3D Pose Estimation from a Fisheye Camera via Self-Supervised Learning.](https://ieeexplore.ieee.org/iel7/6046/4456689/10037218.pdf?casa_token=9YbialJb1skAAAAA:vHQ6Gh2aCAgnLBzWpshsokeNZ9KLab1cOvtsjfCElge73rtmg7xjbRtTi0HH3IzNAuV_zw5EXEw)" IEEE Transactions on Multimedia (2023).
 14. Liu, Yuxuan, et al. "[Ego+ X: An Egocentric Vision System for Global 3D Human Pose Estimation and Social Interaction Characterization.](https://ieeexplore.ieee.org/iel7/9981026/9981028/09981710.pdf?casa_token=V6QJN9VhuTIAAAAA:RAzDY04STFyES8zxLFg2pYNOcJBsLpfmbrsXG8iq3gAzYa7f0Idlz1vAlMZ8_R8sVdF7IjCZ0ps)" 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2022.
+15. Cuevas-Velasquez, Hanz, et al. "[SimpleEgo: Predicting Probabilistic Body Pose from Egocentric Cameras.](https://arxiv.org/pdf/2401.14785)" arXiv preprint arXiv:2401.14785 (2024).
+16. Kang, Taeho, et al. "[Ego3DPose: Capturing 3D Cues from Binocular Egocentric Views.](https://dl.acm.org/doi/pdf/10.1145/3610548.3618147?casa_token=bpNpEFPeSFYAAAAA:ZVlsDJxpElpfno3HiSpyo6KpsLLPq1T8dYLv2BCe-A0tgQvl6ANY8NbTD7Nb5d-iGO1hFkEiTc4XZg)" SIGGRAPH Asia 2023 Conference Papers. 2023.
 
 ## Egocentric Inside-Out Pose Estimation
 
