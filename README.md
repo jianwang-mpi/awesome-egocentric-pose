@@ -82,7 +82,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="1">Stereo Perspecive<br></td>
-    <td class="tg-0lax">EgoGlass</td>
+    <td class="tg-0lax">EgoGlass<a href="#inside_in_17">[17]</a></td>
     <td class="tg-0lax">172K</td>
     <td class="tg-0lax">Real</td>
     <td class="tg-0lax">10</td>
@@ -235,6 +235,7 @@ The inside-in vision setup involves cameras or sensors directed toward the perso
 14. Liu, Yuxuan, et al. "[Ego+ X: An Egocentric Vision System for Global 3D Human Pose Estimation and Social Interaction Characterization.](https://ieeexplore.ieee.org/iel7/9981026/9981028/09981710.pdf?casa_token=V6QJN9VhuTIAAAAA:RAzDY04STFyES8zxLFg2pYNOcJBsLpfmbrsXG8iq3gAzYa7f0Idlz1vAlMZ8_R8sVdF7IjCZ0ps)" 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2022.
 15. Cuevas-Velasquez, Hanz, et al. "[SimpleEgo: Predicting Probabilistic Body Pose from Egocentric Cameras.](https://arxiv.org/pdf/2401.14785)" arXiv preprint arXiv:2401.14785 (2024).
 16. Kang, Taeho, et al. "[Ego3DPose: Capturing 3D Cues from Binocular Egocentric Views.](https://dl.acm.org/doi/pdf/10.1145/3610548.3618147?casa_token=bpNpEFPeSFYAAAAA:ZVlsDJxpElpfno3HiSpyo6KpsLLPq1T8dYLv2BCe-A0tgQvl6ANY8NbTD7Nb5d-iGO1hFkEiTc4XZg)" SIGGRAPH Asia 2023 Conference Papers. 2023.
+17. Zhao, Dongxu, et al. "[Egoglass: Egocentric-view human pose estimation from an eyeglass frame.](https://ieeexplore.ieee.org/iel7/9665713/9665818/09665856.pdf?casa_token=dYBP9CRE0wcAAAAA:Kqu28DzDJv15VWY9y0LxmiFH_TF-HUZXYf_NJFD9MwVg0cSeCUigogbr4OBt7zjMNGGe5g5I7l4)" 2021 International Conference on 3D Vision (3DV). IEEE, 2021.
 
 ## Egocentric Inside-Out Pose Estimation
 
