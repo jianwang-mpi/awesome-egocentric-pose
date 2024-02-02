@@ -9,6 +9,7 @@ We split this topic by different capture setups:
 - [Egocentric Inside-Out Pose Estimation](#egocentric-inside-out-pose-estimation)
 - [IMU-Based Egocentric Pose Estimation](#imu-based-egocentric-pose-estimation)
 - [Headset-Based Egocentric Pose Estimation](#headset-based-egocentric-pose-estimation)
+- [Third-Person View Egocentric Pose Estimation](#third-person-view-egocentric-pose-estimation)
 - [Mixed Setup](#mixed-setup)
 
 
